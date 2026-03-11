@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31655370936';
@@ -41,11 +42,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link
-              href="/"
-              className="inline-block text-white font-bold text-xl no-underline hover:text-[#C8965A] transition-colors mb-3"
-            >
-              Home Resizing
+            <Link href="/" className="inline-block mb-3 no-underline" aria-label="Home Resizing — naar de homepage">
+              <Image
+                src="/images/Logo.png"
+                alt="Home Resizing"
+                width={140}
+                height={42}
+                className="h-9 w-auto object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
               Zorgeloos kleiner wonen. Wij begeleiden uw verhuizing van A tot Z — discreet,

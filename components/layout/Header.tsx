@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
@@ -38,15 +39,17 @@ export function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex flex-col no-underline group"
+          className="flex items-center no-underline"
           aria-label="Home Resizing — naar de homepage"
         >
-          <span className="text-[#1B3A5C] font-bold text-xl leading-none group-hover:text-[#C8965A] transition-colors">
-            Home Resizing
-          </span>
-          <span className="text-[#64748B] text-xs leading-tight hidden sm:block">
-            Zorgeloos kleiner wonen. Wij regelen alles.
-          </span>
+          <Image
+            src="/images/Logo.png"
+            alt="Home Resizing"
+            width={160}
+            height={48}
+            className="h-10 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
