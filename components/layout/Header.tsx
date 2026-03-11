@@ -14,7 +14,7 @@ const navItems = [
   { label: 'Over ons', href: '/over-ons' },
 ];
 
-const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31 XX XXX XX XX';
+const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31655370936';
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

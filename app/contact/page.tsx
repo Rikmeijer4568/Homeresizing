@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Phone, Mail, Clock } from 'lucide-react';
 import { IntakeForm } from '@/components/forms/IntakeForm';
 
-const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31 XX XXX XX XX';
-const EMAIL = process.env.NEXT_PUBLIC_EMAIL || 'info@homeresizing.nl';
+const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31655370936';
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL || 'info@homeresizing.com';
 
 export const metadata: Metadata = {
   title: 'Contact & Intake aanvragen',

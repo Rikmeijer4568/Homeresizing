@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { CheckCircle, Phone, Download } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
-const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31 XX XXX XX XX';
+const PHONE = process.env.NEXT_PUBLIC_PHONE || '+31655370936';
 const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/homeresizing';
 
 export const metadata: Metadata = {
