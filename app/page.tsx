@@ -12,7 +12,7 @@ import { CTABanner } from '@/components/sections/CTABanner';
 export const metadata: Metadata = {
   title: 'Home Resizing — Zorgeloos kleiner wonen',
   description:
-    'Professionele verhuisregie en downsizing voor senioren. Van sorteren tot inrichten: wij regelen alles. Gratis intake. Heel Nederland.',
+    'Professionele verhuisregie en downsizing voor mensen die kleiner willen wonen. Van sorteren tot inrichten: wij regelen alles. Gratis intake. Heel Nederland.',
 };
 
 export default function HomePage() {

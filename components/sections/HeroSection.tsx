@@ -33,7 +33,7 @@ export function HeroSection({
           {/* Text */}
           <div>
             <p className="text-[#C8965A] font-semibold text-sm uppercase tracking-widest mb-4">
-              Verhuisregie voor senioren · Heel Nederland
+              Kleiner wonen, zorgeloos geregeld · Heel Nederland
             </p>
             <h1
               id="hero-heading"

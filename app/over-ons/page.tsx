@@ -7,7 +7,7 @@ import { SectionHeader } from '@/components/ui/Card';
 export const metadata: Metadata = {
   title: 'Over ons',
   description:
-    'Leer ons kennen. Home Resizing is opgericht vanuit de overtuiging dat iedere senior recht heeft op een respectvolle, zorgeloze overgang naar een nieuwe woonsituatie.',
+    'Leer ons kennen. Home Resizing is opgericht vanuit de overtuiging dat iedereen in een nieuwe levensfase recht heeft op een respectvolle, zorgeloze overgang naar een nieuwe woonsituatie.',
 };
 
 const kernwaarden = [
@@ -33,7 +33,7 @@ export default function OverOnsPage() {
     <>
       <HeroSection
         title="Persoonlijk, professioneel en oprecht betrokken."
-        subtitle="Home Resizing is opgericht vanuit de overtuiging dat iedere senior recht heeft op een respectvolle, zorgeloze overgang — hoe groot of klein de verhuizing ook is."
+        subtitle="Home Resizing is opgericht vanuit de overtuiging dat iedereen in een nieuwe levensfase recht heeft op een respectvolle, zorgeloze overgang — hoe groot of klein de verhuizing ook is."
         ctaPrimary={{ label: 'Maak kennis via een gratis gesprek', href: '/contact' }}
         compact
       />
@@ -56,7 +56,7 @@ export default function OverOnsPage() {
               </div>
               <div className="absolute -bottom-5 -right-5 bg-[#C8965A] text-white rounded-xl p-4">
                 <p className="font-bold text-sm">[Naam]</p>
-                <p className="text-white/80 text-xs">Oprichter & Senior Manager</p>
+                <p className="text-white/80 text-xs">Oprichter & Directeur</p>
               </div>
             </div>
 
@@ -73,7 +73,7 @@ export default function OverOnsPage() {
                   een ouder, motivatie voor het starten van dit bedrijf, wat hen drijft.]
                 </p>
                 <p>
-                  Ik heb gezien hoe overweldigend het kan zijn — voor de senior zelf, maar ook
+                  Ik heb gezien hoe overweldigend het kan zijn — voor de persoon zelf, maar ook
                   voor de familie die machteloos toekijkt. Mijn missie: dat niemand dit alleen
                   hoeft te doen.
                 </p>

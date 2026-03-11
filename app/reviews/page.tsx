@@ -8,7 +8,7 @@ import { SectionHeader } from '@/components/ui/Card';
 export const metadata: Metadata = {
   title: 'Reviews & verhalen',
   description:
-    'Ervaringen van senioren en families die wij mochten begeleiden bij hun verhuizing en downsizing. Lees hun verhalen.',
+    'Ervaringen van mensen die kleiner gingen wonen en hun families, begeleid door Home Resizing. Lees hun verhalen.',
 };
 
 export default function ReviewsPage() {

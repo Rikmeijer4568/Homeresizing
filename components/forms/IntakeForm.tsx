@@ -223,7 +223,7 @@ export function IntakeForm() {
                   </legend>
                   <div className="flex flex-wrap gap-3">
                     {[
-                      { value: 'senior', label: 'De senior zelf' },
+                      { value: 'senior', label: 'Ikzelf (ik wil kleiner wonen)' },
                       { value: 'familie', label: 'Kind / familie' },
                       { value: 'anders', label: 'Anders' },
                     ].map(({ value, label }) => (

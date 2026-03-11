@@ -18,15 +18,15 @@ export const metadata: Metadata = {
     template: '%s | Home Resizing',
   },
   description:
-    'Professionele verhuisregie en downsizing voor senioren. Wij begeleiden uw verhuizing van A tot Z: sorteren, verhuizen, inrichten. Heel Nederland.',
+    'Professionele verhuisregie en downsizing voor mensen die kleiner willen wonen. Wij begeleiden uw verhuizing van A tot Z: sorteren, verhuizen, inrichten. Heel Nederland.',
   keywords: [
-    'seniorenverhuizing',
-    'verhuiscoach senioren',
+    'kleiner wonen begeleiding',
+    'verhuiscoach downsizing',
     'downsizing hulp',
     'ontspullen',
     'woning opruimen bij verhuizing',
     'verhuizing naar appartement begeleiding',
-    'inpakservice senioren',
+    'inpakservice bij verhuizing',
     'woning bezemschoon',
   ],
   authors: [{ name: 'Home Resizing' }],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     locale: 'nl_NL',
     siteName: 'Home Resizing',
     title: 'Home Resizing — Zorgeloos kleiner wonen',
-    description: 'Professionele verhuisregie en downsizing voor senioren. Heel Nederland.',
+    description: 'Professionele verhuisregie en downsizing voor mensen die kleiner willen wonen. Heel Nederland.',
   },
   twitter: {
     card: 'summary_large_image',
@@ -52,7 +52,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'Home Resizing',
   description:
-    'Professionele verhuisregie en downsizing voor senioren. Wij begeleiden uw verhuizing van A tot Z.',
+    'Professionele verhuisregie en downsizing voor mensen die kleiner willen wonen. Wij begeleiden uw verhuizing van A tot Z.',
   url: 'https://www.homeresizing.nl',
   telephone: process.env.NEXT_PUBLIC_PHONE,
   email: process.env.NEXT_PUBLIC_EMAIL,

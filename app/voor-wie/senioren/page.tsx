@@ -6,9 +6,9 @@ import { CTABanner } from '@/components/sections/CTABanner';
 import { SectionHeader } from '@/components/ui/Card';
 
 export const metadata: Metadata = {
-  title: 'Voor senioren',
+  title: 'Kleiner wonen in een nieuwe levensfase',
   description:
-    'Verhuisregie en downsizing speciaal voor senioren. U houdt altijd de regie. Wij begeleiden op uw tempo, met respect voor uw herinneringen.',
+    'Verhuisregie en downsizing voor mensen die kleiner willen wonen. U houdt altijd de regie. Wij begeleiden op uw tempo, met respect voor uw herinneringen.',
 };
 
 const geruststelling = [

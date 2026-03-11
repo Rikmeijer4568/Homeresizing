@@ -16,7 +16,7 @@ const serviceLinks = [
 const infoLinks = [
   { label: 'Werkwijze', href: '/werkwijze' },
   { label: 'Pakketten & prijzen', href: '/pakketten' },
-  { label: 'Voor senioren', href: '/voor-wie/senioren' },
+  { label: 'Kleiner wonen', href: '/voor-wie/senioren' },
   { label: 'Voor familie', href: '/voor-wie/familie' },
   { label: 'Reviews & verhalen', href: '/reviews' },
   { label: 'FAQ', href: '/faq' },
