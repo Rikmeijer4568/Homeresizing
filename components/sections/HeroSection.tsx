@@ -18,8 +18,8 @@ export function HeroSection({
   subtitle = 'Wij begeleiden en regelen uw verhuizing van A tot Z: van uitzoeken en doneren tot inpakken, verhuizen en uw nieuwe woning volledig ingericht opleveren.',
   ctaPrimary = { label: 'Gratis Downsizing Check aanvragen', href: '/contact' },
   ctaSecondary,
-  imageSrc = 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format',
-  imageAlt = 'Warm gesprek aan keukentafel',
+  imageSrc = '/images/Catharina.jpg',
+  imageAlt = 'Catharina — oprichtster van Home Resizing',
   compact = false,
 }: HeroSectionProps) {
   return (
@@ -86,11 +86,15 @@ export function HeroSection({
                 <img
                   src={imageSrc}
                   alt={imageAlt}
-                  className="w-full h-[420px] object-cover"
+                  className="w-full h-[420px] object-cover object-top"
                   loading="eager"
                   decoding="async"
                 />
               </div>
+              {/* Name caption */}
+              <p className="mt-3 text-center text-[#64748B] text-sm">
+                <span className="font-semibold text-[#1B3A5C]">Catharina</span> — oprichtster Home Resizing
+              </p>
               {/* Floating trust card */}
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-[0_4px_20px_rgba(27,58,92,0.12)] p-4 max-w-[220px]">
                 <p className="text-[#C8965A] font-bold text-2xl">100%</p>
