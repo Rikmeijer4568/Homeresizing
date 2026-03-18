@@ -55,7 +55,7 @@ export default function OverOnsPage() {
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-[#C8965A] text-white rounded-xl p-4">
-                <p className="font-bold text-sm">[Naam]</p>
+                <p className="font-bold text-sm">Catharina Jansen</p>
                 <p className="text-white/80 text-xs">Oprichter & Directeur</p>
               </div>
             </div>
