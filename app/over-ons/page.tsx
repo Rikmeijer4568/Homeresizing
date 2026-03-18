@@ -41,14 +41,14 @@ export default function OverOnsPage() {
       {/* Oprichter */}
       <section className="section bg-white" aria-labelledby="oprichter-heading">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-            {/* Foto placeholder */}
-            <div className="relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
+            {/* Foto */}
+            <div className="relative lg:sticky lg:top-28">
               <div className="rounded-2xl overflow-hidden shadow-[0_4px_32px_rgba(27,58,92,0.12)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/Catharina.jpg"
-                  alt="Catharina, oprichter van Home Resizing"
+                  alt="Catharina Jansen, oprichter van Home Resizing"
                   className="w-full h-[480px] object-cover object-top"
                   loading="lazy"
                   decoding="async"
