@@ -33,7 +33,7 @@ export default function OverOnsPage() {
     <>
       <HeroSection
         title="Persoonlijk, professioneel en oprecht betrokken."
-        subtitle="Home Resizing is opgericht vanuit de overtuiging dat iedereen in een nieuwe levensfase recht heeft op een respectvolle, zorgeloze overgang — hoe groot of klein de verhuizing ook is."
+        subtitle="Home Resizing is opgericht vanuit de overtuiging dat iedereen op een moment in zijn leven de wens krijgt om anders te willen wonen. Kleiner, overzichtelijker, centraler — maar wel met een groot gevoel van comfort. Hoe groot of klein deze verandering ook is, het brengt altijd veel met zich mee. Voor veel mensen is de gedachte aan alles wat bij een verhuizing komt kijken een reden om af te haken en met een gevoel van spijt achter te blijven in de oude situatie. Wij staan klaar om u hiermee te helpen en uw wensen te verwezenlijken."
         ctaPrimary={{ label: 'Maak kennis via een gratis gesprek', href: '/contact' }}
         compact
       />
@@ -47,8 +47,8 @@ export default function OverOnsPage() {
               <div className="rounded-2xl overflow-hidden shadow-[0_4px_32px_rgba(27,58,92,0.12)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80&auto=format"
-                  alt="Oprichter van Home Resizing"
+                  src="/images/Catharina.jpg"
+                  alt="Catharina, oprichter van Home Resizing"
                   className="w-full h-[480px] object-cover object-top"
                   loading="lazy"
                   decoding="async"
@@ -69,17 +69,31 @@ export default function OverOnsPage() {
               />
               <div className="space-y-4 text-[#64748B] leading-relaxed mb-8">
                 <p>
-                  [Persoonlijk verhaal van de oprichter — bijv. eigen ervaring met verhuizing van
-                  een ouder, motivatie voor het starten van dit bedrijf, wat hen drijft.]
+                  Zelf woon ik in een appartement met een zeer bescheiden afmeting. Ik heb hier de
+                  spullen om me heen die ik graag wil hebben, zoals foto's van de kinderen, boeken
+                  waar ik aan gehecht ben, sieraden, kookspullen en enkele andere zaken. Dit geeft
+                  een heerlijk gevoel van vrijheid zonder iets te missen.
                 </p>
                 <p>
-                  Ik heb gezien hoe overweldigend het kan zijn — voor de persoon zelf, maar ook
-                  voor de familie die machteloos toekijkt. Mijn missie: dat niemand dit alleen
-                  hoeft te doen.
+                  Wat naast het gevoel van vrijheid het extra prettig maakt, is dat ik leef in de
+                  wetenschap dat mijn kinderen later niet opgezadeld zullen worden met een erfenis
+                  van een jarenlange verzameling aan spullen.
                 </p>
                 <p>
-                  Met Home Resizing bied ik de begeleiding die ik destijds zelf had willen hebben:
-                  professioneel, persoonlijk en volledig op uw tempo.
+                  Als voorbeeld denk ik aan mijn moeder. Ze heeft nooit de stap gemaakt om op te
+                  ruimen en is haar hele leven blijven verzamelen en vasthouden aan het oude. Toen
+                  ze van een groot vrijstaand huis naar een kleiner appartement ging verhuizen,
+                  heeft ze bijna niets weggedaan. Hierdoor was haar nieuwe appartement te vol met
+                  te grote meubels. De spullen waar echt geen ruimte voor was, heeft ze opgeslagen
+                  in een garage. Bij haar overlijden moesten wij, mijn broer, zus en ik alsnog
+                  haar verzameling opruimen. Spullen die jarenlang gekoesterd werden moesten
+                  opeens weg. We moesten in een te korte tijd te veel beslissingen nemen.
+                </p>
+                <p>
+                  Op zo'n moment is het prettig om hulp te hebben. Iemand die hierin onafhankelijk
+                  en professioneel betrokken is. Een hulp bij het maken van beslissingen en die
+                  eventueel het contact heeft met de diverse partijen. Na de verhuizing het gevoel
+                  het goed gedaan te hebben en geen overhaaste beslissingen te hebben genomen.
                 </p>
               </div>
 
